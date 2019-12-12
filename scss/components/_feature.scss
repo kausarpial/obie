@@ -1,0 +1,149 @@
+.feature{
+  position: relative;
+  padding: 350px 0;
+  margin-top: -250px;
+  margin-bottom: -250px;
+  overflow: hidden;
+  @include mobile{
+    padding: 250px 0;
+    margin-top: -150px;
+    margin-bottom: -150px;
+  }
+  &-item{
+    display: flex;
+    align-items: center;
+    @include desktop{
+      flex-wrap: wrap;
+    }
+    &:not(:last-child){
+      margin-bottom: 220px;
+      @include tablet{
+        margin-bottom: 150px;
+      }
+    }
+    &-image{
+      width: 50%;
+      text-align: center;
+      order: 1;
+      position: relative;
+      z-index: 1;
+      @include desktop{
+        width: 100%;
+        margin-bottom: 100px;
+      }
+      @include tablet{
+        margin-bottom: 70px;
+      }
+      img{
+        max-width: 100%;
+        border-radius: 4px;
+        box-shadow: 
+          0 30px 40px 0 rgba(0,0,0,0.01),
+          0 30px 40px 0 rgba(0,0,0,0.02),
+          0 30px 40px 0 rgba(0,0,0,0.03),
+          0 30px 40px 0 rgba(0,0,0,0.04)
+          ;
+        @include desktop{
+          width: 100%;
+        }
+      }
+      &-shape{
+        position: absolute;
+        z-index: -1;
+        &-looper{
+          position: absolute;
+          top: 70%;
+          left: 30%;
+          transform: translate(-50%, -50%);
+        }
+        img{
+          box-shadow: none;
+        }
+      }
+      &-small{
+        position: absolute;
+        animation-name: up-down-reverse;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        &.right{
+          right:-10%; bottom: -20%;
+          @include desktop{
+            bottom: -10%;
+            right: -5%;
+          }
+          @include mobile{
+            right: 0;
+          }
+        }
+        &.left{
+          left:-10%; 
+          bottom: -5%;
+          @include desktop{
+            left: 0;
+          }
+        }
+      }
+    }
+    &-content{
+      width: 50%;
+      padding-left: 70px;
+      order: 2;
+      @include desktop{
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+      }
+      h2{
+        font-size: 40px;
+        margin-bottom: 20px;
+        @include mobile{
+          font-size: 30px;
+        }
+      }
+    }
+    &:nth-child(2n){
+      .feature-item-image{
+        order: 2;
+        @include desktop{
+          order: 1;
+        }
+      }
+      .feature-item-content{
+        order: 1;
+        padding-left: 0;
+        padding-right: 70px;
+        @include desktop{
+          order: 2;
+          padding-right: 0;
+        }
+      }
+    }
+  }
+  &-shape-blob{
+    position: absolute;
+    width: 80%;
+    &.left{
+      transform: translateX(-40%);
+    }
+    &.right{
+      transform: translateX(40%);
+    }
+    @include desktop-1500{
+      width: 70%;
+    }
+    @include tablet{
+      display: none;
+    }
+    svg{
+      path{
+        fill: rgba($color: $white, $alpha: 0.6);
+      }
+    }
+  }
+}
+
+@keyframes up-down-reverse {
+  0% { transform: translateY(0) }
+  100% { transform: translateY(15px) }
+}

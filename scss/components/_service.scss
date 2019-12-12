@@ -1,0 +1,78 @@
+.service{
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+  @include desktop{
+    padding: 30px 0 80px;
+  }
+  &-section-title{
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 1;
+    @include tablet{
+      margin-bottom: 50px;
+    }
+    h2{
+      font-size: 50px;
+      @include mobile{
+        font-size: 35px;
+      }
+    }
+    &-line{
+      position: absolute;
+      left: 46%;
+      bottom: -32px;
+      z-index: -1;
+      svg{
+        width: 160px;
+      }
+    }
+  }
+  &-items{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    @include desktop{
+      flex-wrap: wrap;
+    }
+  }
+  &-item{
+    width: 33.33%;
+    text-align: center;
+    background: $white;
+    padding: 40px 50px;
+    &:not(:last-child){
+      border-right: 1px solid $border-color;
+      @include desktop{
+        border-right: 0;
+        border-bottom: 1px solid $border-color;
+      }
+    }
+    @include desktop{
+      width: 100%;
+    }
+    img{
+      margin-bottom: 10px;
+    }
+    h3{
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+    p{
+      margin-bottom: 35px;
+    }
+    &-shape{
+      position: absolute;
+      &:first-child{
+        top: -90px;
+        left: -95px;
+      }
+      &:nth-child(2){
+        right: -70px;
+        bottom: -50px;
+        z-index: -1;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="51px" viewBox="0 0 57 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 27</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <pattern id="pattern-1" width="10" height="10" x="0" y="-10" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-2"></use>
+        </pattern>
+        <image id="image-2" width="10" height="10" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABGdBTUEAALGN5fIAKQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAACqADAAQAAAABAAAACgAAAAAYsJrPAAAAGElEQVQYGWNgGJrgP9DZIIwCmFB4Q5wDAMGDAgHAw4exAAAAAElFTkSuQmCC"></image>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.480212984">
+        <g id="Landing-page-1st-draft-Copy" transform="translate(-43.000000, -297.000000)">
+            <g id="Group-27" transform="translate(44.000000, 293.000000)">
+                <path d="M57,23.5 C57,10.5210639 46.4789361,0 33.5,0 C20.5210639,0 10,10.5210639 10,23.5 C10,36.4789361 20.5210639,47 33.5,47 C46.4789361,47 57,36.4789361 57,23.5" id="Fill-25-Copy-4" fill="url(#pattern-1)" opacity="0.477911086"></path>
+                <path d="M47,30.5 C47,17.5210639 36.4789361,7 23.5,7 C10.5210639,7 0,17.5210639 0,30.5 C0,43.4789361 10.5210639,54 23.5,54 C36.4789361,54 47,43.4789361 47,30.5" id="Fill-25-Copy-5" stroke="#979797"></path>
+            </g>
+        </g>
+    </g>
+</svg>

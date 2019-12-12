@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="960px" height="840px" viewBox="0 0 960 840" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="70.1179766%" y1="105.411876%" x2="-20.4786143%" y2="38.4024937%" id="linearGradient-1">
+            <stop stop-color="#9193FF" offset="0%"></stop>
+            <stop stop-color="#585AFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-29.5086898%" y1="66.8412838%" x2="78.3485127%" y2="20.8962817%" id="linearGradient-2">
+            <stop stop-color="#585AFF" offset="0%"></stop>
+            <stop stop-color="#585AFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page-1st-draft-Copy" transform="translate(-960.000000, 0.000000)">
+            <g id="Group-5" transform="translate(960.000000, -246.000000)">
+                <path d="M996.663013,238.459443 C1225.77113,488.573263 1228.28865,941.939307 985,1044 C862.851669,1091.54364 708.273475,1040.27361 559,1010 C407.247157,984.252062 260.552247,975.326381 150.429141,896.132963 C35.400638,818.835653 -1.25585805,666.400527 33.7012304,520.696446 C65.0754556,372.955139 120.558331,226.603238 202,125 C350.706962,-79.8304536 756.087522,-24.4710817 996.663013,238.459443 Z" id="Mask" fill="url(#linearGradient-1)"></path>
+                <path d="M1085.86868,553.344478 C1078.69752,232.733987 841.355576,-11.3966434 592.801134,41.1382518 C463.704152,62.6923219 292.12068,98.4981476 170.219057,180.919241 C46.9622539,259.84761 -26.6207668,385.391246 8.98496146,505.641785 C39.6216982,624.307995 150.012362,702.372185 247.641753,808.990296 C351.02259,907.881205 441.62602,1035.32604 565.576545,1074.55257 C817.349538,1147.65493 1092.88657,858.47896 1085.86868,553.344478" id="Mask" fill="url(#linearGradient-2)" opacity="0.842617754"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.648181734">
+        <g id="Landing-page-1st-draft-Copy" transform="translate(-469.000000, -690.000000)" fill="#FFB3B6" fill-rule="nonzero">
+            <path d="M469.693512,690.693512 C470.589298,689.797726 472.024262,689.769732 472.953747,690.609532 L473.042084,690.693512 L484.306488,701.957916 C485.231171,702.882599 485.231171,704.381805 484.306488,705.306488 C483.410702,706.202274 481.975738,706.230268 481.046253,705.390468 L480.957916,705.306488 L469.693512,694.042084 C468.768829,693.117401 468.768829,691.618195 469.693512,690.693512 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

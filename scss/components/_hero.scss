@@ -1,0 +1,109 @@
+.hero{
+  position: relative;
+  padding: 150px 0 80px;
+  @include desktop{
+    padding: 150px 0 70px;
+  }
+  &-shape{
+    &-left{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 80%;
+      img{
+        width: 100%;
+      }
+      @include desktop-1500{
+        top: unset;
+        bottom: 0;
+      }
+      @include desktop{
+        width: 100%;
+      }
+    }
+    &-right{
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 52%;
+      img{
+        width: 100%;
+      }
+      @include desktop-1500{
+        top: unset;
+        bottom: 0;
+      }
+      @include desktop{
+        display: none;
+      }
+    }
+    &-sm{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      &-one{
+        position: absolute;
+        bottom: 20%;
+        left: -3%;
+      }
+      &-two{
+        position: absolute;
+        top: 25%;
+        left: 4%;
+      }
+      &-three{
+        position: absolute;
+        top: -14%;
+        left: 22%;
+      }
+      &-four{
+        position: absolute;
+        bottom: 31%;
+        left: 24%;
+      }
+      &-five{
+        position: absolute;
+        left: 43%;
+        top: -12%;
+      }
+      &-six{
+        position: absolute;
+        left: 47%;
+        bottom: 38%;
+      }
+    }
+  }
+  &-content{
+    margin-right: 50px;
+    @include desktop{
+      margin-right: 0;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    h1{
+      margin-bottom: 20px;
+      @include mobile{
+        font-size: 40px;
+        margin-bottom: 15px;
+      }
+    }
+    p{
+      color: $text-color-dark;
+      font-size: 18px;
+      line-height: 32px;
+      margin-bottom: 55px;
+      @include desktop{
+        margin-bottom: 30px;
+      }
+      @include mobile{
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+  }
+  &-image{
+    img{
+      width: 100%;
+    }
+  }
+}
